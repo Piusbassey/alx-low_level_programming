@@ -3,9 +3,6 @@
 /**
  * print_alphabet_x10 - prints 10 times the alphabet
  *
- * This function prints the lowercase alphabet 10 times, with each set of
- * characters separated by a newline character.
- *
  * Return: void (no return value)
  */
 
