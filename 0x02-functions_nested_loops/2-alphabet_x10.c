@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * print_alphabet_x10 - prints 10 times the alphabet
- *
- * Return: void (no return value)
- */
+  * print_alphabet_x10 - Prints the alphabet
+  */
 void print_alphabet_x10(void)
 {
 	char n;
