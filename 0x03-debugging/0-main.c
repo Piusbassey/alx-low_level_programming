@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * main - Entry point.
- * @i: Number to be printed.
+ * main - Entry point. 
  * Return: Always (0) success.
  */
 int main(void)
