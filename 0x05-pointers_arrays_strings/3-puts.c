@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _puts - Prints a string
+ * _puts - Prints a string.
+ * @param str: The string to be printed.
  */
 void _puts(char *str)
 {
