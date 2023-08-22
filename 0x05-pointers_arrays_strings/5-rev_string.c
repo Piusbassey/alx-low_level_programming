@@ -1,19 +1,20 @@
-#include "main.h"
 #include <string.h>
-#include <stdio.h>
 
 /**
- * rev_string - Reverses a string.
- * @s: String to be reserved.
+ * rev_string - Reverses a string
+ * @param s: A pointer to the string
  */
+
 void rev_string(char *s)
 {
-	int how_long = strlen(s);
-	int a = how_long - 1;
+	int length = strlen(s);
+	int i, j;
+	char temp;
 
-	for (; a >= 0; a--)
+	for (i = 0, j = length - 1; i < j; i++, j--)
 	{
-		putchar(s[a]);
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
 	}
-		putchar('\n');
 }
