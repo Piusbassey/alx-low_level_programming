@@ -6,6 +6,7 @@
  * @dest: The destination buffer.
  * @src: The source string.
  * @n: The maximun number of characters to copy.
+ * Return: original_dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
