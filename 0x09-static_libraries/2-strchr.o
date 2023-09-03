@@ -1,0 +1,4 @@
+char *_strchr(char *s, vhar c)
+{
+	return (NULL);
+}
