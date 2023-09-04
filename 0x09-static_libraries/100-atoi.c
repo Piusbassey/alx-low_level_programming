@@ -13,7 +13,7 @@ int _atoi(char *s)
 
 	unsigned int res = 0;
 
-	while ((s[i] == '-' || s[i] == '+') || !(s[i] >= '0' && s[i] <= '9') && s[i] != '\0')
+	while ((s[i] == '-' || s[i] == '+') || (!(s[i] >= '0' && s[i] <= '9') && s[i] != '\0'))
 	{
 		if (s[i] == '-')
 			sign *= -1;
