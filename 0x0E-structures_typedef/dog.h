@@ -1,6 +1,12 @@
 #ifndef _DOG_H_
 #define _DOG_H_
 
+/**
+ * struct dog - a structure representing a dog with name, age, and owner
+ * @name: a pointer to a character (string) representing the dog's name
+ * @age: a floating-point number representing the dog's age
+ * @owner: a pointer to a character (string) representing the dog's owner
+ */
 struct dog
 {
 	char *name;
