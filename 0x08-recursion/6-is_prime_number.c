@@ -3,6 +3,7 @@
 /**
  * is_prime_number - Check if the input is a prime number.
  * @n: The number to check for primality.
+ * * @divisor: The current divisor being tested.
  * Return: 1 if n is prime, 0 otherwise.
  */
 int is_prime_recursive(int n, int divisor);
@@ -20,9 +21,8 @@ int is_prime_number(int n)
 
 	return (is_prime_recursive(n, 2));
 }
-
 /**
- * is_prime_recursive - Helper function to check if a num is prime.
+ * is_prime_recursive - Recursive function to check if a num is prime.
  * @n: The number to check for primality.
  * @divisor: The current divisor being tested.
  * Return: 1 if n is prime, 0 otherwise.
