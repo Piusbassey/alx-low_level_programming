@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 
+/**
+ * _strspn - Calculates the length of the initial segment..
+ * @s: The string to be searched.
+ * @accept: The string containing characters to search for.
+ *
+ * Return: The length of the initial segment of @s.
+ */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
