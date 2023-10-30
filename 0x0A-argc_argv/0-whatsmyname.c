@@ -1,7 +1,7 @@
-#include "main.h"
+#include <stdio.h>
 
-/*
- * main - Entry point.
+/**
+ * main - Entry point for the program.
  * @argc: The number of arguments passed to the program.
  * @argv: An array containing the program command-line arguments.
  *
@@ -9,9 +9,9 @@
  */
 int main(int argc, char *argv[])
 {
-	(void) argv;
+	(void)argv;
 
-	printf("%d\n", argc);
+		printf("%d\n", argc);
 
 	return (0);
 }
