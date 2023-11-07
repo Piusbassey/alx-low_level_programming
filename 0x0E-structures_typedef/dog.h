@@ -9,13 +9,13 @@
  * @age: The age of the dog stored as a float.
  * @owner: Pointer to a character string representing the dog's owner.
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}
+dog_t;
 
 void print_dog(struct dog *d);
-
 #endif
