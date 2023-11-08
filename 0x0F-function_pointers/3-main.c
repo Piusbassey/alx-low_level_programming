@@ -13,7 +13,8 @@ int is_numeric(const char *str)
 		return (0);
 	}
 
-	while (*str != '\0') {
+	while (*str != '\0')
+	{
 		if (*str < '0' || *str > '9')
 		{
 			return (0);
@@ -60,13 +61,13 @@ int main(int argc, char *argv[])
 		return (99);
 	}
 
-	if ((argv[2][0] == '/' || argv[2][0] == '%') && num2 == 0) {
+	if ((argv[2][0] == '/' || argv[2][0] == '%') && num2 == 0)
+	{
 		printf("Error: Division by zero.\ni");
 		return (100);
 	}
-
 	result = func(num1, num2);
-	printf("%d\n", result); 
+	printf("%d\n", result);
 
 	return (0);
 }
