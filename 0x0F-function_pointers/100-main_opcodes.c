@@ -30,8 +30,6 @@ int main(int argc, char *argv[])
 	int num_bytes = atoi(argv[1]);
 	char *address = (char *)&main;
 
-	print_opcodes(address, num_bytes);
-
 	if (argc != 2)
 	{
 		printf("Error\n");
@@ -43,6 +41,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (2);
 	}
+	print_opcodes(address, num_bytes);
 
 	return (0);
 }
+
